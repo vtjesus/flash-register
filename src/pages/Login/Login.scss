@@ -1,0 +1,82 @@
+.login-page {
+  --background: #3880ff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.flash-logo {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 300px;
+  padding-top: 10rem;
+}
+
+.custom-input {
+  margin-bottom: 1rem;
+  --background: white;
+  --color: #3880ff;
+  --placeholder-color: #3880ff;
+  --placeholder-opacity: 0.8;
+  --border-radius: 8px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  font-size: 16px;
+}
+
+.custom-button {
+  margin-top: 1rem;
+  --background: white;
+  --background-activated: #f4f4f4;
+  --color: #3880ff;
+  --border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.login-problem-button, .back-button {
+  --color: white;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+ion-footer {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 11px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
